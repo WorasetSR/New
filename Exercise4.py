@@ -17,5 +17,3 @@ print("Introduction score is:", ICS)
 print("Computer System score is:", CP)
 print("--------------------------------------------------------------")
 print("Summary :", (FE+GB+ICS+CP)/4)
-_kpkpk = 10
-print(_kpkpk+1)

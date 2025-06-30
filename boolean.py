@@ -1,6 +1,22 @@
+if True: print('corect')
+
 print(True)
 print(type(True))
 print(True and False)
 print(type(True))
 print(True or False)
-print(True i False)
+print(~(~(True or False)))
+print(not True)
+print(~False)
+print(80!=10)
+print(80==10)
+print(80<=10)
+print(80>=10)
+print(80==10)
+if True: print('corect')
+
+a = input("Enter a number: ")
+b = input("Enter another number: ")
+c = a<b
+if c == True : print("KIng Gay")
+else: print('Noob gay')
