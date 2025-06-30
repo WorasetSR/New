@@ -13,5 +13,7 @@ elif score < 75 :
     print("Grade 3")
 elif score < 80 :
     print("Grade 3.5")
-else :
+elif score <= 100 :
     print("Grade 4")
+else:
+    print('error')
