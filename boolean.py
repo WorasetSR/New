@@ -1,0 +1,6 @@
+print(True)
+print(type(True))
+print(True and False)
+print(type(True))
+print(True or False)
+print(True i False)
