@@ -1,0 +1,13 @@
+x = 'working'
+print(x[0])
+print(x[1])
+print(x[2])
+print(x[3])
+print(x[4])
+print(x[5])
+print(x[6])
+print(x[2]+'kay')
+print(x[1:3]+'kay')
+name = input('Enter your name: ')
+age = int(input('Enter your age: '))
+print('My name is %s, and I am %d years old' % (name.capitalize(), age))
