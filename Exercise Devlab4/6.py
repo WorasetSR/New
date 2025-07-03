@@ -10,10 +10,12 @@
 '''
 import math
 
-x = int(input('Enter a number: '))
+x = int(input(''))
 y = math.ceil(x/2)
-for i in range(x) :
-    print(f'{x}*{y}={x*y}')
-
-
-
+if x%2 == 0 :
+    print('')
+else:
+    for i in range(y) :
+        print(' '*(y-i-1) + '*'*(2*i+1))
+    for i in range(y-1, 0 , -1) :
+        print(' '*(y-i) + '*'*(2*i-1))
