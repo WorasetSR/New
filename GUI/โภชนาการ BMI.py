@@ -47,7 +47,3 @@ run = Button(MainWindow, text='Continuous', command=runn).grid(row=5, column=0)
 show = Label(MainWindow, text='', justify=LEFT)
 show.grid(row=5, column=1)
 mainloop()
-
-
-
-
